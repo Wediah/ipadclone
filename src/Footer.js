@@ -6,7 +6,7 @@ import { TfiFacebook, TfiTwitterAlt, TfiLinkedin, TfiYoutube } from 'react-icons
 function Footer() {
   return (
     <div className='bg-indigo-500 p-5'>
-        <div className='flex flex-row space-x-24 justify-center'>
+        <div className='flex flex-col gap-10 justify-start md:flex-row md:justify-center md:space-x-24'>
             <div className='flex flex-col gap-1 text-white'>
                 <p className='text-2xl font-bold'>PayWise Ghana</p>
                 <p>31st January Boundry Road,</p>
